@@ -1,0 +1,40 @@
+﻿@model List<InfoTrackDevelopmentProject.Models.SearchItem>
+
+<br/>
+<p>Here is a log showing the results of every search performed.</p>
+<br/>
+<table class="table" id="searches">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Time</th>
+        <th>Engine Used</th>
+        <th>Query Searched</th>
+        <th>Url Searched For</th>
+        <th>Positions Found</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Time.ToString()</td>
+            <td>@item.SearchEngine</td>
+            <td>@item.SearchQuery</td>
+            <td>@item.Url</td>
+            <td>@item.Result</td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.css">
+
+<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.11/js/jquery.dataTables.js"></script>
+
+<script type="text/javascript" charset="utf8">
+    $(document).ready( function () {
+        $('#searches').DataTable();
+    } );
+</script>

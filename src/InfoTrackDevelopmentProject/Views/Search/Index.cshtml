@@ -1,0 +1,44 @@
+﻿@using InfoTrackDevelopmentProject.Models
+@model InfoTrackDevelopmentProject.Models.SearchItem
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <h2>Welcome to my Search app!</h2>
+    <h3>In this app we perform a Search and see at what entries our desired URL shows up!</h3>
+</div>
+<br/>
+@using (Html.BeginForm("FindSearch", "Search", FormMethod.Post))
+{
+    <div>
+        <h4>Enter the keywords that you would like to search:</h4>
+        <br />
+        <label asp-for="SearchQuery">Search Query:</label>
+        @Html.TextBoxFor(m => m.SearchQuery)
+    </div>
+
+    <br />
+    <div>
+        <h4>Enter URL that you would like to search for:</h4>
+        <br/>
+        <label asp-for="Url">Search Url:</label>
+        @Html.TextBoxFor(m => m.Url)
+    </div>
+    <br />
+    <div>
+        <h4>Select which search engine you would like to use</h4>
+        <label asp-for="SearchEngine">Search Engine:</label>
+        @Html.DropDownListFor(m => m.SearchEngine, new SelectList(Enum.GetValues(typeof(SearchEngines))), new {@class = "dropdown"})
+    </div>
+    <br/>
+    <div class="button-div">
+        <input type="submit" class="btn btn-primary pull-right" name="search" value="Search" />
+    </div>
+}
+<br/> <br/>
+<div>
+    <h4>@ViewBag.Message</h4>
+</div>
+

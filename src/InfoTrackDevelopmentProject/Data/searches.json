@@ -1,0 +1,98 @@
+[
+  {
+    "Url": "infotrack.com",
+    "SearchQuery": "infotrack",
+    "Id": 1,
+    "Result": "1, 4, 66, 70, 94",
+    "Time": "2016-12-21T19:08:30.8116791+11:00",
+    "SearchEngine": "Google"
+  },
+  {
+    "Url": "infotrack.com",
+    "SearchQuery": "infoTrack",
+    "Id": 2,
+    "Result": "1, 3, 61",
+    "Time": "2016-12-21T19:08:44.8411341+11:00",
+    "SearchEngine": "Google"
+  },
+  {
+    "Url": "infotrack.com",
+    "SearchQuery": "Infotrack",
+    "Id": 3,
+    "Result": "1, 4, 66, 70, 94",
+    "Time": "2016-12-21T19:08:52.5016124+11:00",
+    "SearchEngine": "Google"
+  },
+  {
+    "Url": "infotrack.com",
+    "SearchQuery": "InfoTrack",
+    "Id": 4,
+    "Result": "1, 4, 66, 70, 94",
+    "Time": "2016-12-21T19:08:57.8959739+11:00",
+    "SearchEngine": "Google"
+  },
+  {
+    "Url": "infotrack.com.au",
+    "SearchQuery": "infotrack",
+    "Id": 5,
+    "Result": "1",
+    "Time": "2016-12-21T19:09:47.4497282+11:00",
+    "SearchEngine": "Google"
+  },
+  {
+    "Url": "infotrack.com.au",
+    "SearchQuery": "InfoTrack",
+    "Id": 6,
+    "Result": "1",
+    "Time": "2016-12-21T19:09:54.5570217+11:00",
+    "SearchEngine": "Google"
+  },
+  {
+    "Url": "infotrack.com.au",
+    "SearchQuery": "infoTrack",
+    "Id": 7,
+    "Result": "1",
+    "Time": "2016-12-21T19:09:59.2351849+11:00",
+    "SearchEngine": "Google"
+  },
+  {
+    "Url": "infotrack.com.au",
+    "SearchQuery": "Inforack",
+    "Id": 8,
+    "Result": "0",
+    "Time": "2016-12-21T19:10:06.3238884+11:00",
+    "SearchEngine": "Google"
+  },
+  {
+    "Url": "infotrack.com.au",
+    "SearchQuery": "Infotrack",
+    "Id": 9,
+    "Result": "1",
+    "Time": "2016-12-21T19:10:14.6782159+11:00",
+    "SearchEngine": "Google"
+  },
+  {
+    "Url": "infotrack.com.au",
+    "SearchQuery": "online title search",
+    "Id": 10,
+    "Result": "5",
+    "Time": "2016-12-21T20:17:44.3080414+11:00",
+    "SearchEngine": "Google"
+  },
+  {
+    "Url": "infotrack.com",
+    "SearchQuery": "online title search",
+    "Id": 14,
+    "Result": "2",
+    "Time": "2016-12-22T10:25:52.9995161+11:00",
+    "SearchEngine": "Bing"
+  },
+  {
+    "Url": "infotrack.com.au",
+    "SearchQuery": "online title search",
+    "Id": 15,
+    "Result": "2",
+    "Time": "2016-12-22T10:26:00.5970225+11:00",
+    "SearchEngine": "Bing"
+  }
+]
